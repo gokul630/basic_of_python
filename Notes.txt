@@ -33,3 +33,62 @@ print(mix[1][3])='lokesh'
 append(x): Adds item x directly to the end of the list.extend(iterable): 
 Appends all items from an external collection to the end.insert(i, x): Inserts item x precisely at specified index position i.remove(x): Deletes the very first occurrence of value x.pop(i): Removes and returns the item at index i (defaults to the last item)
 .clear(): Flushes the entire list, leaving it completely empty.index(x): Returns the integer index of the first matched value x.count(x): Counts the exact number of times value x appears.sort(): Reorders the internal components in ascending sequence natively.reverse(): Flips the current positional layout of all items in-place.copy(): Generates an independent shallow copy of the existing structure.
+----------------------------------------------------------------------------------------------------------------------------------'
+3.tuple()
+Tuples are used to store multiple items in a single variable.
+
+Tuple is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+
+A tuple is a collection which is ordered and unchangeable.
+
+Tuples are written with round brackets.
+
+NOTE:"Python Collections (Arrays)
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. 
+we can have tuple inside a tuple and we have tuple inside a 
+"
+
+code:
+detile=('gokul',25,7.6)
+print(type(detile))
+name,age,hight=detile
+print(f'my name is {name}\n'f'my age is {age}\n'f'my hight is {hight}')
+detile2=(detile,[12,35,45])
+detile2[1][2] = 65
+print(detile2)
+Output:
+<class 'tuple'>
+my name is gokul
+my age is 25
+my hight is 7.6
+(('gokul', 25, 7.6), [12, 35, 65])
+__________________________________________________________________________________________________________________________
+4.Set{}
+Sets are used to store multiple items in a single variable.
+
+Set is one of 4 built-in data types in Python used to store collections of data, the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+
+A set is a collection which is unordered, unchangeable*, and unindexed.
+_________________________________________________________________________________________________________________________________
+5.Dictionary {:}
+Dictionary items are ordered, changeable, and do not allow duplicates.
+
+Dictionary items are presented in key:value pairs, and can be referred to by using the key name.
+
+Example
+Print the "brand" value of the dictionary:
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(thisdict["brand"])
+
+***with the help of set and list we can able creat a dictionary.**
+
