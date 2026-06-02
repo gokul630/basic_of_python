@@ -1,0 +1,35 @@
+python notes:
+------------------------------------------------------------
+1.string:
+'Gokul raj'
+output= Gokul raj
+'gokul''raj'
+output='gokulraj'
+variable='gokul'+'raj'
+print(variable)
+output='gokul raj'
+____________________________________________________________________
+
+2.List[]
+list will strat with 0.
+List is a built-in data structure used to store an ordered collection of items. They are dynamic, resizable and capable of storing multiple data types.
+
+Mutable: list elements can be changed, updated, added, or removed after the list is created.
+Ordered: elements maintain the order in which they are inserted.
+Index-based: elements are accessed using their position, starting from index 0.
+
+print(variable[3])=u
+print(variable[-1])=j
+negative value start from revers direction.
+print(variable[3:])=ulraj
+print(variable[0:-1])=gokulra
+len(variable)=8
+
+mix of sting and number 
+mix = [[15,25,35,45],['gokul',harshi',bharath','lokesh']]
+print(mix[0][2])=35
+print(mix[1][3])='lokesh'
+
+append(x): Adds item x directly to the end of the list.extend(iterable): 
+Appends all items from an external collection to the end.insert(i, x): Inserts item x precisely at specified index position i.remove(x): Deletes the very first occurrence of value x.pop(i): Removes and returns the item at index i (defaults to the last item)
+.clear(): Flushes the entire list, leaving it completely empty.index(x): Returns the integer index of the first matched value x.count(x): Counts the exact number of times value x appears.sort(): Reorders the internal components in ascending sequence natively.reverse(): Flips the current positional layout of all items in-place.copy(): Generates an independent shallow copy of the existing structure.
