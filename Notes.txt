@@ -91,4 +91,18 @@ thisdict = {
 print(thisdict["brand"])
 
 ***with the help of set and list we can able creat a dictionary.**
-
+-------------------------------------------------------------------------------------------------------------------------------------
+evrythink in python is a object.
+gerbage collection:need to know in python 
+6.Data type:
+<class 'int'>
+<class 'float'>
+<class 'complex'>
+<class 'int'>
+<class 'bool'>
+<class 'range'>
+--------------------------------------------------------------------------------------------------------------------------------'
+7.Operators:
+arthmatic Operators and relational Operators.
+a+b,a-b,a*b,a//b,    |  or,and,not 
+a+=2,a==b a>b etc.   |
