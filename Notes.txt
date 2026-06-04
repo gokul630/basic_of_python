@@ -106,3 +106,15 @@ gerbage collection:need to know in python
 arthmatic Operators and relational Operators.
 a+b,a-b,a*b,a//b,    |  or,and,not 
 a+=2,a==b a>b etc.   |
+----------------------------------------------------------------------------------------------------------------------------
+8.Function:
+Defining a function means establishing a reusable block of code or a mathematical rule that accepts inputs and produces a specific output.
+Note: If we are you ("""""") inside the function to discribe it what the fuction is used for.
+_-_______________________________________________________________________________________________________________________________
+9:Modules:
+In Python, a module is simply a file containing Python code with a .py extension. 
+It allows you to logically group and organize related functions, classes, and 4
+variables into a single file, making your code reusable, easier to manage, and scalable.
+Types of ModulesBuilt-in Modules: Modules pre-installed with Python, such as math, random, and os.
+User-Defined Modules: Custom files you create yourself to break up large programs.
+External (Third-Party) Modules: Code written by others that you download using pip, like Requests or Pandas.
